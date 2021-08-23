@@ -383,8 +383,8 @@ body {
     /* margin-top: 100px; */
     margin-bottom: 200px;
     color: rgb(121, 59, 221);
-    font-weight: bold;
-    letter-spacing: 5px;
+    font-weight:bolder;
+    font-size: x-large;
 }
 /* .icon-link--twitter {
     left: auto;
