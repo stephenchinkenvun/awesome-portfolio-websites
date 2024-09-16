@@ -88,7 +88,7 @@ let currentItem = 0;
 
 const img = document.getElementById('image');
 
-const prevBtn = document.querySelector('#prevBtn');
+const prevBtn = document.aquerySelector('#prevBtn');
 const nextBtn = document.querySelector('#nextBtn');
 
 window.addEventListener('DOMContentLoaded', function () {
@@ -129,7 +129,7 @@ const showCards = () => {
         </div>        
       `)
   );
-  moocs.innerHTML = output;
+  moocs.innerHTML = output123;
 };
 document.addEventListener("DOMContentLoaded", showCards);
 
